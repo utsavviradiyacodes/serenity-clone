@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    line-height: 1.625;
+  }
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+
+  --color-primary-100: #e3e7e2;
+  --color-primary-200: #c6cfc4;
+  --color-primary-300: #a2b09f;
+  --color-primary-400: #7d8f79;
+  --color-primary-500: #62735e;
+  --color-primary-600: #4d5b4a;
+  --color-primary-700: #3f4a3d;
+  --color-primary-800: #353d33;
+  --color-primary-900: #2d332c;
+  --color-primary-950: #171b16;
+
+  --color-stone-50: #faf9f7;
+  --color-stone-100: #f3f1ec;
+  --color-stone-200: #e6e1d8;
+  --color-stone-300: #d4ccbc;
+  --color-stone-400: #bfb39d;
+  --color-stone-500: #ae9e85;
+  --color-stone-600: #9d8a72;
+  --color-stone-700: #847160;
+  --color-stone-800: #6c5d51;
+  --color-stone-900: #594d44;
+  --color-stone-950: #2f2823;
+
+  --color-coffee-950: #2f2823;
+
+  --color-header-title: #594d44;
+  --color-header-muted: #ae9e85;
+  --color-header-link: #847160;
+
+  --color-header-icon-bg: #f3f1ec;
+  --color-header-icon-dark: #e6e1d8;
+  --color-header-icon-dark-bg: #6c5d51;
+}
